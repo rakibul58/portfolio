@@ -3,7 +3,7 @@ import router from "./routes/routes";
 
 function App() {
   return (
-    <div className="bg-secondary bg-opacity-20">
+    <div className="bg-gradient-to-tr from-green-100 to-cyan-100">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

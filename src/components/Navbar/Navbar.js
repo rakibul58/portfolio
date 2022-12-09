@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { BsGithub, BsLinkedin, BsInfoCircleFill, BsTwitter } from "react-icons/bs";
 import { AiFillHome } from "react-icons/ai";
 import { MdMail, MdWork } from "react-icons/md";
@@ -13,18 +13,18 @@ const Navbar = () => {
             </div>
             <div className="my-auto">
                 <ul className="flex flex-col gap-6  p-0">
-                    <li><Link title='Home' to='/'><AiFillHome className='text-3xl hover:text-primary hover:transition-colors ease-in-out delay-200'></AiFillHome></Link></li>
-                    <li><Link title='About' to='/about'><BsInfoCircleFill className='text-3xl hover:text-primary hover:transition-colors ease-in-out delay-200'></BsInfoCircleFill></Link></li>
-                    <li><Link title='Skills' to='/skills'><GiBrain className='text-3xl hover:text-primary hover:transition-colors ease-in-out delay-200'></GiBrain></Link></li>
-                    <li><Link title='Projects' to='/projects'><MdWork className='text-3xl hover:text-primary hover:transition-colors ease-in-out delay-200'></MdWork></Link></li>
-                    <li><Link title='Contact' to='/contact'><MdMail className='text-3xl hover:text-primary hover:transition-colors ease-in-out delay-200'></MdMail></Link></li>
+                    <li><NavLink active title='Home' to='/'><AiFillHome className='text-3xl hover:text-secondary text-primary-focus animate animatecss hover:animatecss-rubberBand'></AiFillHome></NavLink></li>
+                    <li><NavLink title='About' to='/about'><BsInfoCircleFill className='text-3xl hover:text-secondary text-primary-focus animate animatecss hover:animatecss-rubberBand'></BsInfoCircleFill></NavLink></li>
+                    <li><NavLink title='Skills' to='/skills'><GiBrain className='text-3xl hover:text-secondary text-primary-focus animate animatecss hover:animatecss-rubberBand'></GiBrain></NavLink></li>
+                    <li><NavLink title='Projects' to='/projects'><MdWork className='text-3xl hover:text-secondary text-primary-focus animate animatecss hover:animatecss-rubberBand'></MdWork></NavLink></li>
+                    <li><NavLink title='Contact' to='/contact'><MdMail className='text-3xl hover:text-secondary text-primary-focus animate animatecss hover:animatecss-rubberBand'></MdMail></NavLink></li>
                 </ul>
             </div>
             <div className="mt-auto">
                 <ul className="flex flex-col gap-3 p-0">
-                    <li><a rel='noreferrer' target="_blank" href='https://www.github.com/rakibul58'><BsGithub className='text-3xl hover:text-primary hover:transition-colors ease-in-out delay-200'></BsGithub></a></li>
-                    <li><a rel='noreferrer' target="_blank" href='https://www.linkedin.com/in/muhammed-rakibul-hasan'><BsLinkedin className='text-3xl hover:text-primary hover:transition-colors ease-in-out delay-200'></BsLinkedin></a></li>
-                    <li><a rel='noreferrer' target="_blank" href='https://twitter.com/rakibul147'><BsTwitter className='text-3xl hover:text-primary hover:transition-colors ease-in-out delay-200'></BsTwitter></a></li>
+                    <li><a rel='noreferrer' target="_blank" href='https://www.github.com/rakibul58'><BsGithub className='text-3xl hover:text-secondary text-opacity-50 text-primary-focus animate animatecss hover:animatecss-rubberBand'></BsGithub></a></li>
+                    <li><a rel='noreferrer' target="_blank" href='https://www.linkedin.com/in/muhammed-rakibul-hasan'><BsLinkedin className='text-3xl hover:text-secondary text-opacity-50 text-primary-focus animate animatecss hover:animatecss-rubberBand'></BsLinkedin></a></li>
+                    <li><a rel='noreferrer' target="_blank" href='https://twitter.com/rakibul147'><BsTwitter className='text-3xl hover:text-secondary text-opacity-50 text-primary-focus animate animatecss hover:animatecss-rubberBand'></BsTwitter></a></li>
                 </ul>
             </div>
         </div>
