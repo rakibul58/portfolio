@@ -5,8 +5,8 @@ import { SiBootstrap, SiC, SiCplusplus, SiExpress, SiFirebase, SiJavascript, SiM
 
 const Skills = () => {
     return (
-        <div className='flex flex-wrap flex-col-reverse lg:flex-row items-center lg:justify-around gap-5 w-full my-20 pr-10 lg:pr-0 animate animatecss animatecss-backInLeft p-10'>
-            <div className='lg:w-1/2 mx-auto'>
+        <div className='flex flex-wrap flex-col-reverse lg:flex-row items-center lg:justify-around gap-y-10 gap-5 w-full my-20 pr-10 lg:pr-0 animate animatecss animatecss-backInLeft p-10'>
+            <div className='w-full lg:w-1/2 mx-auto'>
                 <h1 className='font-burtons text-2xl md:text-4xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary animate animatecss hover:animatecss-rubberBand'>
                     <strong>What I Do</strong>
                 </h1>
@@ -17,7 +17,7 @@ const Skills = () => {
                     Apart from these, I am a student of Computer Science and Engineering. I am familiar with programming languages C and C++. Also with C++, I am familiar with Object Oriented Programming. I have also worked with MySQL and sqLite for the semester final projects.
                 </p>
             </div>
-            <div className='lg:w-1/3 mx-auto'>
+            <div className='w-full lg:w-1/3 mx-auto'>
                 <div className='flex flex-wrap gap-10 mx-auto'>
                     <div><AiFillHtml5 className='text-7xl text-blue-500 animatecss animatecss-tada animatecss-infinite hover:animatecss-rubberBand'></AiFillHtml5></div>
                     <div><FaCss3Alt className='text-7xl text-orange-600 animatecss animatecss-tada animatecss-infinite hover:animatecss-rubberBand'></FaCss3Alt></div>
