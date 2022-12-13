@@ -20,11 +20,11 @@ const Contact = () => {
             });
     };
     return (
-        <div className='flex flex-wrap flex-col-reverse lg:flex-row items-center lg:justify-around gap-5 w-full my-20 pr-10 lg:pr-0 animate animatecss animatecss-fadeInDown px-3 md:px-6 lg:px-10'>
+        <div className='flex flex-wrap flex-col-reverse lg:flex-row items-center lg:justify-around gap-5 w-full animate animatecss animatecss-fadeInDown px-3 md:px-6 lg:px-10'>
             <div className='w-full lg:w-1/2'>
                 <div>
                     <div>
-                        <form ref={form} onSubmit={sendEmail} noValidate="" className="space-y-6 ng-untouched ng-pristine ng-valid shadow-2xl px-2 sm:p-10 rounded-xl bg-opacity-10 text-secondary-content font-semibold bg-black">
+                        <form ref={form} onSubmit={sendEmail} noValidate="" className="space-y-6 ng-untouched ng-pristine ng-valid shadow-2xl p-5 rounded-xl bg-opacity-10 text-secondary-content font-semibold bg-black">
                             <div>
                                 <h1 className='text-secondary-content font-bold text-lg sm:text-2xl'>Feel Free to Contact</h1>
                             </div>
@@ -40,13 +40,13 @@ const Contact = () => {
                                 <label htmlFor="message" className="text-sm">Message</label>
                                 <textarea name="message" placeholder='Message' id="message" rows="3" className="w-full p-3 bg-black bg-opacity-5 border border-gray-600 mt-3 rounded-lg"></textarea>
                             </div>
-                            <input type="submit" className="btn btn-primary bg-gradient-to-tr from-primary to-secondary animatecss hover:animatecss-rubberBand" value='Send Message' />
+                            <input type="submit" className="btn btn-primary bg-gradient-to-tr from-primary to-secondary animatecss hover:animatecss-rubberBand animatecss-slow" value='Send Message' />
                         </form>
                     </div>
                 </div>
             </div>
             <div className='w-full lg:w-1/3'>
-                <div className='map'>
+                <div className='map animatecss animate animate-pulse animatecss-slow'>
                     <MapContainer className='map' center={[22.34, 91.81]} zoom={10} scrollWheelZoom={false}>
                         <TileLayer
                             attribution='<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">&copy; MapTiler</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>'

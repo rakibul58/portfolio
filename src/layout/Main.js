@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar/Navbar';
 
 const Main = () => {
     return (
-        <div className='flex'>
+        <div className='flex flex-col lg:flex-row'>
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>
