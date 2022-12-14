@@ -1,117 +1,56 @@
 [
     {
         "name": "Phone Heaven",
-        "short-description": "Phone Resale Website",
-        "img-url":"",
+        "short_description": "Phone Resale Website",
+        "img": "https://i.ibb.co/0VKgLyN/phone-heaven.png",
         "discription": [
             "Admit, Buyer, Seller Role Available with their dynamic dashboards",
             "JWT token are used to fetch from database and to secure user information",
             "Each user has different roles such as admin can delete buyer or seller, admin can verify the buyer and so on"
-        ] ,
-        "screenshots":[
+        ],
+        "screenshots": [
             "",
             "",
             ""
         ],
         "live-link": "https://phone-heaven.web.app/",
-        "server-link": "",
+        "server-link": "https://github.com/rakibul58/phone-heaven-server",
         "client-link": "https://github.com/rakibul58/phone-heaven-client"
-
     },
     {
-        "name": "Phone Heaven",
-        "short-description": "Phone Resale Website",
-        "img-url":"",
+        "name": "Dentist Fantastic",
+        "short_description": "Service Review Website",
+        "img": "https://i.ibb.co/PhmZFvz/dentistfantastic.png",
         "discription": [
-            "Admit, Buyer, Seller Role Available with their dynamic dashboards",
-            "JWT token are used to fetch from database and to secure user information",
-            "Each user has different roles such as admin can delete buyer or seller, admin can verify the buyer and so on"
-        ] ,
-        "screenshots":[
+            "User Authentication with Firebase. User can login and Register",
+            "A user can add comments but user have to be logged in. If the user is not logged in, then comment box would be invisible",
+            "User can Add a comment or edit their previous comment and Remove their Previous comment"
+        ],
+        "screenshots": [
             "",
             "",
             ""
         ],
-        "live-link": "",
-        "server-link": "",
-        "client-link": ""
-
+        "live-link": "https://dentist-fantastic.web.app/",
+        "server-link": "https://github.com/rakibul58/dentist-fantastic-server",
+        "client-link": "https://github.com/rakibul58/dentist-fantastic-client"
     },
     {
-        "name": "Phone Heaven",
-        "short-description": "Phone Resale Website",
-        "img-url":"",
+        "name": "Infinite Course",
+        "short_description": "Course Based Website",
+        "img": "https://i.ibb.co/7J7Vk7V/infinitecourses.png",
         "discription": [
-            "Admit, Buyer, Seller Role Available with their dynamic dashboards",
-            "JWT token are used to fetch from database and to secure user information",
-            "Each user has different roles such as admin can delete buyer or seller, admin can verify the buyer and so on"
-        ] ,
-        "screenshots":[
+            "Authentication done with Firebase. User can login with providers email and password",
+            "Each course has dynamic details page and dynamic checkout page. User have to logged in to go to checkout page",
+            "User can download the course details page which is implemented using react-to-pdf"
+        ],
+        "screenshots": [
             "",
             "",
             ""
         ],
-        "live-link": "",
-        "server-link": "",
-        "client-link": ""
-
-    },
-    {
-        "name": "Phone Heaven",
-        "short-description": "Phone Resale Website",
-        "img-url":"",
-        "discription": [
-            "Admit, Buyer, Seller Role Available with their dynamic dashboards",
-            "JWT token are used to fetch from database and to secure user information",
-            "Each user has different roles such as admin can delete buyer or seller, admin can verify the buyer and so on"
-        ] ,
-        "screenshots":[
-            "",
-            "",
-            ""
-        ],
-        "live-link": "",
-        "server-link": "",
-        "client-link": ""
-
-    },
-    {
-        "name": "Phone Heaven",
-        "short-description": "Phone Resale Website",
-        "img-url":"",
-        "discription": [
-            "Admit, Buyer, Seller Role Available with their dynamic dashboards",
-            "JWT token are used to fetch from database and to secure user information",
-            "Each user has different roles such as admin can delete buyer or seller, admin can verify the buyer and so on"
-        ] ,
-        "screenshots":[
-            "",
-            "",
-            ""
-        ],
-        "live-link": "",
-        "server-link": "",
-        "client-link": ""
-
-    },
-    {
-        "name": "Phone Heaven",
-        "short-description": "Phone Resale Website",
-        "img-url":"",
-        "discription": [
-            "Admit, Buyer, Seller Role Available with their dynamic dashboards",
-            "JWT token are used to fetch from database and to secure user information",
-            "Each user has different roles such as admin can delete buyer or seller, admin can verify the buyer and so on"
-        ] ,
-        "screenshots":[
-            "",
-            "",
-            ""
-        ],
-        "live-link": "",
-        "server-link": "",
-        "client-link": ""
-
+        "live-link": "https://infinit-courses.web.app/",
+        "server-link": "https://github.com/rakibul58/infinite-courses-server",
+        "client-link": "https://github.com/rakibul58/infinite-courses-client"
     }
-    
 ]

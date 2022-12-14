@@ -30,9 +30,9 @@ const Navbar = () => {
                         <li><NavLink className={({ isActive }) =>
                             isActive ? "text-secondary-focus" : "text-primary-focus"
                         } title='Contact' to='/contact'><MdMail className='text-3xl mx-auto hover:text-secondary animate animatecss hover:animatecss-rubberBand'></MdMail></NavLink></li>
-                        <li><NavLink className={({ isActive }) =>
+                        {/* <li><NavLink className={({ isActive }) =>
                             isActive ? "text-secondary-focus" : "text-primary-focus"
-                        } title='Blogs' to='/blogs'><MdBook className='text-3xl mx-auto hover:text-secondary animate animatecss hover:animatecss-rubberBand'></MdBook></NavLink></li>
+                        } title='Blogs' to='/blogs'><MdBook className='text-3xl mx-auto hover:text-secondary animate animatecss hover:animatecss-rubberBand'></MdBook></NavLink></li> */}
                     </ul>
                 </div>
             </div>
@@ -59,9 +59,9 @@ const Navbar = () => {
                     <li><NavLink className={({ isActive }) =>
                         isActive ? "text-secondary-focus" : "text-primary-focus"
                     } title='Contact' to='/contact'><MdMail className='text-3xl hover:text-secondary animate animatecss hover:animatecss-rubberBand'></MdMail></NavLink></li>
-                    <li><NavLink className={({ isActive }) =>
+                    {/* <li><NavLink className={({ isActive }) =>
                         isActive ? "text-secondary-focus" : "text-primary-focus"
-                    } title='Blogs' to='/blogs'><MdBook className='text-3xl hover:text-secondary animate animatecss hover:animatecss-rubberBand'></MdBook></NavLink></li>
+                    } title='Blogs' to='/blogs'><MdBook className='text-3xl hover:text-secondary animate animatecss hover:animatecss-rubberBand'></MdBook></NavLink></li> */}
                 </ul>
             </div>
             <div className="hidden lg:block lg:mt-auto mx-auto">
